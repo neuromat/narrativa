@@ -1,0 +1,170 @@
+{% extends 'base.html' %}
+{% load static %}
+
+    <h1>{% block title %}Contribuições:{% endblock %}</h1>
+    <hr>
+    <p class="header-subtitle">{% block subtitle %}sob as lentes de pesquisadores e de dados{% endblock %}</p>
+    <div class="author">{% block author %}&nbsp;{% endblock %}</div>
+
+{% block content %}
+<section class="section white-bg">
+    <div class="container text-only">
+        <p>
+         Ao longo de mais de uma década de atuação, o CEPID-NeuroMat desenvolveu e aprimorou uma série de 
+         iniciativas que dialogam fortemente entre si, criando um ecossistema bastante coeso. Dentre elas, 
+         algumas estão listadas neste material. Nesse período, duas questões ficam bastante evidentes: o 
+         intenso diálogo entre iniciativas, especialidades dos profissionais envolvidos, e os diferentes 
+         aspectos da ciência; e o impacto positivo que isso tem nas pessoas que fizeram parte dessa 
+         trajetória.
+        </p>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/faisca_neuromat.png' %}" 
+            alt="Arte de capa dos vídeos do Faísca NeuroMat">
+            
+            <div class="caption">
+                Fonte: CEPID-NeuroMat
+            </div>
+        </div>
+
+        <p>
+         Nesse sentido, em episódios mais recentes do Faísca NeuroMat, o entrevistador, Fernando Paixão, 
+         questionou a diferentes participantes quais eram as principais contribuições que o NeuroMat pôde 
+         oferecer nesse período. Vários dos entrevistados fizeram comentários com uma percepção bastante 
+         similar.
+        </p>
+
+        <p>
+         Oswaldo Baffa Filho mencionou os equipamentos adquiridos e desenvolvidos pelo NeuroMat, assim 
+         como um montante de recursos humanos de grande relevância, traduzido no número de profissionais 
+         formados pelo CEPID. Outra entrevistada, Cláudia Domingues Vargas, aponta para a ampla gama de 
+         colaboradores, destacando a interdisciplinaridade envolvida nas atividades do NeuroMat. Por fim, 
+         uma terceira entrevistada, Maria Elisa Piemonte Pimentel destaca, dentro de sua área de atuação, 
+         a Doença de Parkinson e a Rede AMPARO, as amplas contribuições que foram possíveis a partir do 
+         NeuroMat.
+        </p>
+
+        <p>
+         Assim, observa-se um ciclo que se desenvolveu dentro do NeuroMat. Para além da forte relação 
+         entre pesquisa, inovação, transferência tecnológica e difusão científica dentro de cada uma 
+         das atividades desenvolvidas pelo centro, observa-se que isso também se reflete nas pessoas 
+         envolvidas. A relação entre profissionais formados, contribuições tecnológicas diversas e o 
+         desenvolvimento das atividades do CEPID-NeuroMat, no fim, expõem um Centro bastante coeso em 
+         seus objetivos e realizações.
+        </p>
+
+    </div>    
+</section>        
+
+<section class = "section gray-bg">
+    <div class="container text-only">
+
+        <h2 id="contribuição-dados">Olhando para os dados</h2>
+
+        <p>
+         Em seus anos de funcionamento até aqui, o NeuroMat foi responsável por formar pesquisadores 
+         a partir da conclusão de: 24 dissertações de mestrado; 36 teses de doutorados e 29 projetos 
+         de pós-doutorado.
+        <p>
+        
+        <div class="text-image">
+            <img src="{% static 'images/grafico_posgrad.png' %}" 
+            alt="Formação pesquisadores NeuroMat">
+        </div>    
+
+        <p>
+         O Centro também se destaca pelo envolvimento em mais de 1062 missões científicas, permitindo a 
+         troca de conhecimento e experiência entre profissionais de diversos locais e especialidades.
+        </p>
+        
+        <div class="text-image">
+            <img src="{% static 'images/grafico_missions.png' %}" 
+            alt="Missoes científicas NeuroMat">
+        </div>
+
+        <p>
+         Esses trajetos formativos, junto a outros profissionais atuantes na pesquisa realizada pelo 
+         NeuroMat, também se refletem em mais de 500 publicações, incluindo artigos científicos, 
+         teses de doutorado, dissertações de mestrado, resumos e painéis em eventos, entre outros. 
+        </p>
+
+        <p>
+         Além das áreas voltadas diretamente à neuromatemática e às neurociências, o NeuroMat também tem 
+         uma sólida contribuição em atividades vinculadas a pesquisas, inovação e comunicação na área de 
+         difusão científica, assim como no treinamento de profissionais técnicos. No Centro, também 
+         foram formados pelo menos 24 profissionais vinculados a treinamentos técnicos em áreas como 
+         Arquitetura e Desenvolvimento de Software, envolvidos diretamente no desenvolvimento de 
+         inovações computacionais do CEPID. Além disso, também houve a formação de 28 profissionais 
+         vinculados ao Jornalismo Científico que, além de atuar diretamente em difusão e divulgação 
+         científica,também estiveram envolvidos no desenvolvimento de pesquisas e inovações vinculadas 
+         ao CEPID-NeuroMat.
+        </p>
+
+        <div class="text-image">
+            <img src="{% static 'images/grafico_bolsistas.png' %}" 
+            alt="MBolsista TT e JC do NeuroMat">
+        </div>
+
+    </div>
+</section>
+
+<section class="section white-bg">
+    <div class="container text-only">
+
+        <h2 id="contribuição-difusão">Da equipe de difusão</h2>
+
+        <p>
+         Ao longo dos anos,  os bolsistas de Jornalismo Científico, desenvolveram projetos de pesquisa em 
+         comunicação e trabalhos práticos aplicados à difusão científica. Isso resultou em publicações 
+         científicas vinculadas a iniciativas wiki, às artes, aos jornalismos computacional e científico, 
+         entre outras áreas. Além disso, as produções de bolsistas de jornalismo científico também 
+         incluem atualizações do 
+         <a href= "https://pt.wikiversity.org/wiki/Introdução_ao_Jornalismo_Científico" 
+         target = "_blank"> curso de Introdução ao Jornalismo Científico da Wikiversidade</a>, 
+         também desenvolvido pelo CEPID NeuroMat; a produção deste material em suas versões física e digital; 
+         e o desenvolvimento e a atualização de uma página, vinculada a dados do Wikidata, 
+         chamada <a href = "https://vitrine.numec.prp.usp.br" raget = "_blank">‘Vitrine NeuroMat’</a>, 
+         que reúne e expõe muitos números do NeuroMat. Além disso, também inclui um documentário sobre a 
+         vida e história de 
+         Antonio Galves (✞2023), fundador e, por 10 anos, coordenador do CEPID-NeuroMat. 
+         O documentário  ‘Escutar as árvores’, por Tahnee Valzachi Sugano, 
+         foi lançado em 2025, durante o Seminário Ciência Aberta e Difusão Científica - 
+         Desafios e Oportunidades.
+        </p>
+
+        <p>
+         O percurso de cada um dos bolsistas de Jornalismo Científico participante dessa trajetória 
+         também é tema das mais de 1200 postagens realizadas no blog
+         <a href = "https://difusaoneuromat.wordpress.com">Traço de Ciência</a> 
+         do NeuroMat, que reúne um ‘diário de campo’ das atividades de difusão científica desenvolvidas 
+         pelos bolsistas e funciona, por si só, como uma ferramenta de difusão dos processos da 
+         ciência e da divulgação científica.
+        </p>
+
+        <p>
+         Assim, com a formação de pesquisadores e profissionais em diversas áreas dentro da 
+         atuação do Neuromat e até com publicações póstumas com autoria de Antonio Galves, as 
+         contribuições do NeuroMat seguirão ecoando em todas as pessoas que, de alguma maneira, 
+         interagiram e/ou irão interagir com processos e produtos das diversas atividades desenvolvidas 
+         pelo NeuroMat mesmo com o encerramento formal do CEPID.
+        </p>
+
+        <div class="navigation-buttons navigation-buttons-center">
+            <a href="{% url 'aba2' %}" class="nav-button">
+                <span class="nav-icon">
+                    {% include "icons/arrow-left.svg" %}
+                </span>
+                A Difusão
+            </a>
+
+            <a href="{% url 'aba4' %}" class="nav-button">
+                Mídia externa
+                <span class="nav-icon">
+                    {% include "icons/arrow-right.svg" %}
+                </span>
+            </a>
+        </div>
+
+    </div>
+</section>
+{% endblock %}

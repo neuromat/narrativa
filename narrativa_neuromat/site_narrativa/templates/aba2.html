@@ -1,0 +1,211 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<h1>{% block title %}Difusão científica{% endblock %}</h1>
+<hr>
+<p class="header-subtitle">{% block subtitle %}&nbsp;{% endblock %}</p>
+<div class="author">{% block author %}&nbsp;{% endblock %}</div>
+
+{% block content %}
+<section class="section white-bg">
+    <div class="container text-only">
+        <p>
+         Muitas das iniciativas de difusão científica do NeuroMat têm origem em atividades de pesquisa e/ou 
+         inovação e transferência tecnológica desenvolvidas pelo Centro. Dentro desse contexto, podemos 
+         recuperar aquelas realizadas pelas iniciativas AMPARO e ABRAÇO, como as palestras, publicação de 
+         textos e vídeos, e eventos que tornam conteúdos de pesquisa, tratamento ou reabilitação mais 
+         acessíveis e transparentes para seus respectivos públicos. Também é possível citar o 
+         desenvolvimento da HQ de Nildo e Rony, sobre a lesão do plexo braquial, ou mesmo episódios do 
+         podcast A Matemática do Cérebro, que serão abordados nos próximos parágrafos.
+        </p>
+
+        <p>
+         No entanto, é importante destacar que a difusão científica do NeuroMat também se configura 
+         como um eixo independente, produzindo suas próprias pesquisas nos campos da comunicação científica, 
+         divulgação científica, jornalismo científico, jornalismo computacional, artes, entre outros. 
+         Ao mesmo tempo, o eixo de difusão científica também desenvolve suas próprias inovações, 
+         vinculadas diretamente ao campo da comunicação, assim como difunde materiais relacionados 
+         à difusão científica – em um processo de meta-difusão.
+        </p>
+    </div>  
+</section>
+
+<section class="section gray-bg">
+    <div class="container text-only">
+            
+        <h2 id="iniciativas-difusao">Algumas iniciativas de difusão do CEPID-NeuroMat</h2>
+                
+        <p>
+         Entre as iniciativas de difusão derivadas de outros eixos de atuação do CEPID-NeuroMat, 
+         é possível citar aquelas relacionadas à ABRAÇO, que mantém uma plataforma capaz de disponibilizar 
+         informação de qualidade para pessoas envolvidas com a lesão do plexo braquial. Essa  plataforma, 
+         entre os anos de 2020 e 2024, foi acessada por mais de 66 mil usuários distintos e acumula mais 
+         de 102 mil acessos às suas páginas, principalmente àquela que apresenta e contextualiza a lesão 
+         do plexo braquial. Essas informações evidenciam a relevância do site enquanto fonte de informação 
+         e, considerando que mais de 90% dos acessos foram feitos na versão em português brasileiro do site, 
+         isso também se traduz em uma grande relevância no contexto nacional da difusão científica sobre a 
+         lesão do plexo braquial.
+        </p>
+
+        <p>
+         Além disso, a importância do site também se evidencia em relação a outros dois sites mantidos pela 
+         equipe do CEPID-Neuromat: o site central e o site da Rede AMPARO. A página do Centro, conforme 
+         apontam os relatórios, apresenta um perfil de acesso voltado para especialistas na área de atuação 
+         do CEPID: os acessos são feitos, de forma mista, entre português e inglês, e com alta duração de 
+         permanência em cada acesso, sugerindo leituras mais completas e aprofundadas por um público 
+         nacional e internacional. Já o site da Rede AMPARO coexiste com diversas outras páginas de apoio à 
+         Doença de Parkinson enquanto fonte de informação e rede de apoio para aqueles que buscam esses 
+         serviços. De 2020 a 2024 o site da Rede AMPARO apresentou mais de 29 mil acessos em suas páginas 
+         e alcançou mais de 6 mil novos usuários. No mesmo período, o site central do NeuroMat, apresentou 
+         mais de 48 mil acessos e alcançou mais de 16 mil novos usuários.
+        </p>
+
+        <div class="text-image">
+            <img src="{% static 'images/grafico_webviews.png' %}" 
+            alt="Webviews NeuroMat">
+        </div>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/nildo_rony.jpg' %}" 
+            alt="Capa de 'Os Braços de Nildo e Rony"> 
+            <div class="caption">
+                Fonte: <a href = "https://abraco.numec.prp.usp.br/content/os-braços-de-nildo-e-rony-uma-história-do-neuromat" 
+                target = "_blank"> CEPID-NeuroMat; ABRAÇO</a>
+           </div>
+        </div>
+
+        <p>
+         Essas iniciativas também contribuem para a difusão científica do CEPID de outras maneiras. 
+         A ABRAÇO, por exemplo, destaca-se pelo desenvolvimento da 
+         <a href = "https://abraco.numec.prp.usp.br/content/os-braços-de-nildo-e-rony-uma-história-do-neuromat" target = "_blank">História em Quadrinhos ‘Os braços de Nildo e Rony’</a>, 
+         sobre a lesão do plexo braquial, com idealização e roteiro por Antonio Galves. 
+        </p>
+            
+        <p>
+         Já a Rede AMPARO, além dos materiais com caráter expositivo mencionados anteriormente, 
+         também desenvolveu uma plataforma de escuta e interação com seu público 
+         <a href= "https://www.youtube.com/watch?v=lsIkwEzwfKE&list=PLXUXkbNfNLDYn2UFDmCMXHB0MvBRe83WS" 
+         target = "_blank">‘A Ciência Responde’</a>, com 10 episódios, 
+         e <a href= "https://www.youtube.com/watch?v=2MP_QctGI0Q&list=PLXUXkbNfNLDakLECmIWLymg5Ab43Gj4VI" 
+         target = "_blank">‘Rede AMPARO Responde’</a>, 
+         com 64 episódios, que respondem às dúvidas de seu público, baseando-se em artigos científicos recentes.
+        </p>
+
+        <p>
+         Para além desses exemplos, o NeuroMat publicou 16 episódios, divididos em quatro temporadas (com a quinta sendo preparada ao longo de 2025 e 2026), 
+         do podcast ‘A Matemática do Cérebro’; e 17 episódios do Faísca NeuroMat. Os episódios do primeiro exemplo trazem desde questões fundamentais como 
+         <a href= "https://podcast.numec.prp.usp.br/o-que-%C3%A9-o-neur%C3%B4nio/" target = "_blank">“O que é um neurônio?”</a> 
+         até questões aplicadas, como a 
+         <a href= "https://podcast.numec.prp.usp.br/simula%C3%A7%C3%A3o-computacional-de-redes-de-neur%C3%B4nios/" target = "_blank">“Simulação computacional de redes de neurônios”</a>; 
+         já os episódios do Faísca, mencionados diversas vezes ao longo deste material, já discutiu conceitos da matemática aplicados ao cotidiano, 
+         trouxe palestras de pesquisadores do NeuroMat e entrevistou alguns deles, mais recentemente.
+        </p>
+
+    </div>    
+</section>
+
+<section class="section white-bg">
+    <div class="container text-only">
+        
+        <h2 id="wiki-difusao">Wiki-Difusão</h2>
+
+        <p>
+         Por fim, as iniciativas wiki são um grande destaque na história do NeuroMat. Iniciadas ainda em 2014, 
+         elas surgiram com um objetivo, de certa forma, unificador, dentro do NeuroMat. O Centro é composto 
+         por profissionais de diferentes áreas, como biólogos, matemáticos, estatísticos, jornalistas, 
+         engenheiros, tecnólogos, entre outros e, nesse contexto, muitos termos, embora escritos da mesma 
+         forma, são significados de diferentes formas entre as especificidades dos profissionais. 
+         Foi preciso, então, consolidar uma linguagem comum entre esses profissionais, para que a 
+         pesquisa, na recente e pioneira área da Neuromatemática, pudesse se desenvolver plenamente 
+         e com a colaboração de especialistas em diferentes áreas.
+        </p>
+
+        <p>
+         Junto a isso, há outros dois pontos importantes que guiam essa iniciativa de difusão científica 
+         do NeuroMat. O primeiro deles reside no fato de que, ao longo dos anos, a Wikipédia tem se mantido 
+         como um dos sites mais acessados do mundo e, por isso, tem papel central na difusão de informações 
+         de qualidade sobre os mais variados temas – como matemática, estatística e neurociências. 
+         O segundo ponto está no diálogo que essa plataforma apresenta com os princípios de uma ciência 
+         aberta e colaborativa, central na atuação do NeuroMat.
+        </p>
+
+        <p>
+         Nesse sentido, os primeiros esforços de criação e aprimoramento de verbetes do NeuroMat visaram 
+         criar um terreno comum (e aberto) dos termos utilizados nas pesquisas do Centro, como 
+         “Neuromatemática” e “Cadeias estocásticas com memória de alcance variável”. Buscando 
+         alcançar outros objetivos no campo da difusão científica, a equipe do NeuroMat também 
+         passou a investir em termos mais comuns e básicos dos campos da matemática e estatística, 
+         presentes na grade do ensino médio e superior, como “média”, “mediana”, “desvio padrão”, 
+         entre outros. Com isso, já em 2018, após quatro anos da criação da iniciativa, o NeuroMat 
+         tornou-se o principal colaborador global em conteúdos de matemática e estatística de toda a 
+         Wikipédia, segundo dados da própria plataforma.
+        </p>
+
+        <div class="text-image">
+            <div class="img-caption-block img-left">
+                <img src="{% static 'images/maior_editor.png' %}" 
+                alt="Manchete NeuroMat Agência FAPESP"> 
+                <div class="caption">
+                    Fonte: <a href = "https://agencia.fapesp.br/neuromat-e-o-maior-produtor-de-conteudo-de-matematica-na-wikipedia/28179" 
+                    target = "_blank"> Agência FAPESP</a>
+                </div>
+            </div>
+            
+            <blockquote class="quote-full">
+             “O conteúdo sobre matemática na Wikipédia em português ficou mais consistente, confiável e amplo nos últimos dois anos. Isso porque, 
+             de lá para cá, o Centro de Pesquisa, Inovação e Difusão em Neuromatemática (NeuroMat), um Centro de Pesquisa, Inovação e Difusão (CEPID) 
+             financiado pela FAPESP, tornou-se a maior instituição no mundo em geração de conteúdo matemático de forma estruturada e reportada para a 
+             enciclopédia on-line, de acordo com o monitor institucional da própria Wikipédia.”  (Por Maria Fernanda Ziegler  |  
+             Agência FAPESP)
+            </blockquote>        
+        </div>
+
+        <p>
+         Assim, em julho de 2018, na data de publicação da matéria mencionada acima, o verbete 
+         ‘desvio padrão’, era o mais acessado dentre aqueles que receberam aporte do NeuroMat, 
+         com 294 mil acessos. Após essa data, o verbete somou 871 mil acessos até setembro de 2025. 
+         Nos mesmos períodos, o verbete ‘mediana’ contava com 204 mil acessos à época, desde então, 
+         ele recebeu outros 607 mil acessos.
+        </p>
+
+        <p>
+         Nessa reportagem, também é levantado um ponto importante na história do NeuroMat: 
+         a difusão da difusão – ou a meta-difusão. Para além de realizar práticas de difusão 
+         científica sobre os temas com os quais trabalha, o NeuroMat também tornou-se um centro de 
+         inovação e discussão da própria prática da difusão, algo bastante inovador e potente mesmo 
+         dentro do contexto dos Centro de Pesquisa, Inovação e Difusão da FAPESP.
+        </p>
+
+        <p>
+         Com isso,  fica exemplificada a força que a Wikipédia tem enquanto ferramenta de difusão científica 
+         e educação de forma colaborativa e aberta que, além de fomentar a prática, também permite o d
+         esenvolvimento de novas pesquisas vinculadas a elas. A título de exemplo, cita-se 
+         <a href = "https://www.portalintercom.org.br/anais/nacional2016/resumos/R11-1908-1.pdf"
+         target = "_blank">“O uso da Wikipédia na difusão científica”</a>, 
+         publicado nos anais do XXXIX Congresso Brasileiro de Ciências 
+         da Comunicação; e 
+         <a href "https://abciber.org.br/anaiseletronicos/wp-content/uploads/2016/trabalhos/tecnologias_colaborativas_na_difusao_cientifica_um_relato_dos_usos_e_apropriacoes_da_wikipedia_no_cepid_neuromat_david_fernando_levon_alves.pdf"
+          target = "_blank">“Tecnologias colaborativas na difusão científica: um relato dos usos e 
+         apropriações da Wikipédia no CEPID NeuroMat”</a>, publicado nos anais do IX Simpósio Nacional 
+         ABCiber, entre outras pesquisas já publicadas e em desenvolvimento.
+        </p>
+        <div class="navigation-buttons navigation-buttons-center">
+            <a href="{% url 'aba1' %}" class="nav-button">
+                <span class="nav-icon">
+                    {% include "icons/arrow-left.svg" %}
+                </span>
+                A Convergência
+            </a>
+
+            <a href="{% url 'aba3' %}" class="nav-button">
+                Contribuições
+                <span class="nav-icon">
+                    {% include "icons/arrow-right.svg" %}
+                </span>
+            </a>
+        </div>
+        
+    </div>
+</section>
+
+{% endblock %}

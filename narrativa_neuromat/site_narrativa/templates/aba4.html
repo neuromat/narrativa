@@ -1,0 +1,558 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<h1>{% block title %}Sob as lentes das mídias externas{% endblock %}</h1>
+<hr>
+<p class="header-subtitle">{% block subtitle %}&nbsp;{% endblock %}</p>
+<div class="author">{% block author %}&nbsp;{% endblock %}</div>
+
+{% block content %}
+<section class="section white-bg">
+    <div class="container text-only">
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/novos_cepids.png' %}" 
+            alt="Manchete Agência FAPESP">
+
+            <div class="caption">
+                Fonte: <a href= "https://revistapesquisa.fapesp.br/fapesp-anuncia-17-novos-cepids-com-investimentos-de-us-680-mi" 
+                target = "_blank">Revista Pesquisa FAPESP</a>
+            </div>
+        </div>
+
+        <p>
+         Muitos dos pontos abordados até aqui também foram abordados ao longo dos anos por veículos externos ao 
+         Centro. As primeiras aparições do NeuroMat em materiais publicados em revistas, jornais, blogs e outros 
+         veículos externos ocorreram ainda em 2013. Naquelas publicações, o NeuroMat foi abordado junto a outros 
+         demais CEPIDs-FAPESP fundados naquele ano, principalmente em veículos institucionais. 
+         Dali em diante, o NeuroMat foi objeto de pauta por iniciativas de pesquisa, inovação, difusão e abordando 
+         essas frentes de forma interconectada.
+        </p>
+
+        <p>
+         As descrições apresentadas neste documento são derivadas do mapeamento dos clippings midiáticos do 
+         NeuroMat, como parte de uma <a href = "https://commons.wikimedia.org/wiki/File:Painel_seminario_andrestefanuto.pdf"
+         target = "_blank"> pesquisa realizada por André M. Rodeguero Stefanuto</a>, membro da equipe de 
+         difusão do CEPID-NeuroMat entre 2025 e 2026. Os resultados preliminares desse mapeamento foram apresentados no Seminário 
+         Ciência Aberta e Difusão Científica - Desafios e Oportunidades, realizado no Edifício Antonio Galves, no 
+         Instituto de Matemática e Estatística da USP em setembro de 2025.
+        </p>
+
+        <p>
+         No início de 2014, as principais publicações de veículos externos foram relacionadas a pesquisas desenvolvidas 
+         pelo NeuroMat. Foram retratadas pesquisas relacionadas ao <a href = "https://www5.usp.br/noticias/pesquisa-noticias/projeto-liderado-pela-usp-investiga-a-neuromatematica-nova-ciencia-do-cerebro"
+         targe = "_blank">funcionamento do sistema nervoso</a>, principalmente 
+         ligadas às noções do cérebro estatístico e ao desenvolvimento e a aplicações do Modelo Galves-Löcherbach, 
+         fundamental para a fundação do CEPID-NeuroMat e que dialogam diretamente com a atuação do centro ao longo 
+         dos anos.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_usp01.png' %}" 
+             alt="Manchete NeuroMat USP">
+        
+            <div class="caption">
+                Fonte: <a href= "https://www5.usp.br/noticias/pesquisa-noticias/projeto-liderado-pela-usp-investiga-a-neuromatematica-nova-ciencia-do-cerebro" 
+                target = "_blank">USP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+            “A neurociência ainda não dispõe de um quadro conceitual para interpretar em nível elevado de 
+            abstração dados obtidos em experimentos laboratoriais. A situação desta área do saber pode ser 
+            diagnosticada, assim, como rica em dados e pobre em teoria. Para sanar esse problema, são 
+            necessários novos modelos matemáticos que deem conta dos dados experimentais observados, ou seja, 
+            um novo campo da matemática.”
+        </blockquote>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_fapesp01.png' %}" 
+            alt="Manchete NES USP">
+
+            <div class="caption">
+                Fonte: <a href= "https://agencia.fapesp.br/software-livre-ajuda-a-gerenciar-dados-de-experimentos-em-neurociencia/20399" 
+                target = "_blank">Revista Pesquisa FAPESP</a>
+            </div>
+        </div>
+
+        <p>
+         Nesse sentido, foram publicados, ainda naquele ano, 
+         textos relacionados ao NES (Neuroscience Experiment System), um banco de 
+         dados <a href = "https://neuromat.numec.prp.usp.br/nes" target = "_blank">
+         desenvolvido pela equipe do NeuroMat</a>, <i>“que auxilia na organização, controle e gerenciamento de dados 
+         neurofisiológicos clínicos e experimentais”</i>, visando compartilhamento aberto de dados e metadados de 
+         experimentos em neurociências. Além disso, foi nesse período que a equipe do NeuroMat começou a investir em 
+         iniciativas wiki como parte de seus projetos de difusão científica, explicitando, junto ao desenvolvimento 
+         do NES, o vínculo do NeuroMat com princípios da Ciência Aberta.
+        </p>
+
+        <p>
+         Já em 2015, a história do NeuroMat, sob a lente de veículos externos, está ligada principalmente a temáticas 
+         de inovação e transferência tecnológica e alguns eventos realizados pelo CEPID. No eixo da inovação e 
+         transferência tecnológica, 2015 é destacado pelo desenvolvimento de um computador de alto desempenho, voltado para 
+         realização de análises computacionais e simulações do funcionamento de redes neuronais.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_clusterusp.png' %}" 
+            alt="Manchete NeuroMat USP">
+        
+            <div class="caption">
+                Fonte: <a href= "https://agencia.fapesp.br/usp-tera-cluster-para-simular-funcionamento-do-cortex-cerebral/21916" 
+                target = "_blank">Agência FAPESP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+            "[...] será uma das primeiras tentativas de implementar em grande escala uma modelagem 
+            do córtex do tipo estocástica, que incorpora elementos probabilísticos, apresentando uma 
+            distribuição de soluções associadas a probabilidades.
+            ‘Essas simulações estocásticas podem lançar nova luz sobre o funcionamento do cérebro, tanto em 
+            condições normais como anormais, a exemplo de lesões cerebrais, o que poderia eventualmente levar a 
+            avanços na compreensão dos modos de funcionamento do córtex e o papel dos mecanismos de plasticidade.’”
+        </blockquote>
+
+        <p>
+         De certa forma, a cobertura midiática também apresentava as bases fundamentais da atuação do Centro: 
+         o desenvolvimento de <i>uma nova matemática</i>; o prestígio à Ciência Aberta; e as ferramentas necessárias 
+         para trabalhar dentro desse contexto.
+        </p>
+        
+        <p>
+         No ano de 2016, iniciativas de wiki-difusão, que tiveram seus primeiros pulsos dois anos antes, viraram 
+         pauta de modo mais massivo após um intenso empenho em criar, aprimorar e atualizar verbetes relacionados 
+         às neurociências e ao funcionamento do cérebro. O texto, publicado em 2016, aponta:
+        </p>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_usp02.png' %}" 
+            alt="Manchete USP">
+
+            <div class="caption">
+                Fonte: <a href= "https://jornal.usp.br/ciencias/ciencias-exatas-e-da-terra/no-ano-da-ciencia-da-wikipedia-nucleo-da-usp-atualiza-verbetes-sobre-teoria-do-cerebro/" 
+                target = "_blank">Jornal da USP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “Atualmente o NeuroMat é o único Cepid a receber uma bolsa de Jornalismo Científico para fazer difusão 
+         de Neuromatemática na Wikipédia. Além de assegurar que verbetes sobre neurociência sejam criados e 
+         estejam atualizados na enciclopédia, o projeto pretende contribuir com o preceito de ciência aberta.”
+        </blockquote>
+
+        <p>
+         Além dessa iniciativa, as publicações destacam uma pareceria entre o CEPID-NeuroMat e o 
+         Museu de Anatomia Veterinária da USP, permitindo publicar imagens e dados do acervo do museu de forma 
+         acessível ao público, em ambiente wiki:
+        </p>
+
+        <div class="img-caption-block img-left">  
+            <img src="{% static 'images/manchete_museu.png' %}" 
+            alt="Manchete Museu USP">
+
+            <div class="caption">
+                Fonte: <a href= "https://jornal.usp.br/ciencias/ciencias-biologicas/riqueza-de-imagens-do-do-museu-de-anatomia-veterinaria-entra-na-wikipedia/" 
+                target = "_blank">Jornal da USP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “Em agosto de 2016, o Museu de Anatomia Veterinária (MAV) da Faculdade de Medicina Veterinária e 
+         Zootecnia (FMVZ) da USP passou a fazer parte da Wikipedia, um dos dez sites mais acessados do mundo. 
+         É o resultado da parceria com o Centro de Pesquisa, Inovação e Difusão em Neuromatemática (NeuroMat), 
+         ações em rede entre pesquisadores do Instituto de Biociências (IB) e do Instituto de Matemática e 
+         Estatística (IME) da USP.”
+        </blockquote>
+        
+        <p>
+         Em 2016, também se originou a Rede AMPARO (Apoio NeuroMat a Amigos e Pessoas com Doença de 
+         Parkinson). No ano seguinte, quando completaram-se 200 anos da primeira descrição da Doença de Parkinson, a 
+         iniciativa foi pauta da mídia após a realização do ‘I Workshop AMPARO’, cujo objetivo foi discutir 
+         estratégias e desafios para lidar com a doença, com informações recentes 
+         e de qualidade discutidas com o público:
+        </p>
+
+        
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_workamparo.png' %}" 
+            alt="Manchete Museu USP">
+
+            <div class="caption">
+                Fonte: <a href= "https://www.terra.com.br/noticias/workshop-debate-cuidado-aos-pacientes-com-parkinson,bd2f2e1ba38456ff9967a115113ae1f4ri3w8dox.html" 
+                target = "_blank">Terra</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “A proposta do evento se baseia no modelo de cuidado centrado no paciente, da Organização Mundial da 
+         Saúde (OMS) para doenças crônicas. Entre os temas abordados estarão as evidências mais recentes sobre 
+         as causas da Doença de Parkinson, sintomas, fisiopatologia da doença, tratamentos, cuidados 
+         multiprofissionais e desafios para pesquisa, educação e políticas públicas na área.”
+        </blockquote>
+   
+        <p>
+         Já em 2018, o NeuroMat alcançou uma meta bastante representativa de sua história: 
+         o Centro passou a ser o maior contribuidor global de conteúdos de matemática e estatística dentro da Wikipédia.
+         Esse fato foi veiculado tanto em veículos institucionais, como o 
+         Jornal da USP, quanto aqueles mais ligados ao universo computacional e tecnológico, como o 
+         <a href = "https://www.tecmundo.com.br/internet/131978-centro-brasileiro-maior-gerador-conteudo-matematica-wikipedia.htm" target = "_blank">Tecmundo</a> e o 
+         <a href = "https://canaltech.com.br/ciencia/difusao-cientifica-na-wikipedia-recebe-apoio-de-instituicoes-academicas-117420" target = "_blank">Canaltech</a>.         
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_usp_wiki.png' %}" 
+            alt="Manchete Wikipédia NeuroMat">
+
+            <div class="caption">
+                Fonte: <a href= "https://jornal.usp.br/universidade/centro-na-usp-e-campeao-em-conteudo-de-matematica-na-wikipedia/" 
+                target = "_blank">Jornal da USP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “A equipe do centro de pesquisa criou 4,24 mil novos verbetes e outros 21,8 mil foram melhorados. As buscas e 
+         visualizações desses verbetes intensificaram-se quase que instantaneamente após o trabalho do NeuroMat. Apenas 
+         o verbete mais buscado, referente a desvio padrão, tem 294 mil visualizações até junho deste ano, seguido pelo 
+         mediana, com 204 mil visualizações.<br>      
+         ‘Sabe quantos jovens estão matriculados no ensino médio no Brasil? Oito milhões. Com o trabalho de colaboração 
+         na Wikipédia conseguimos difundir o conteúdo matemático para muito mais gente’, disse Fernando da Paixão, 
+         coordenador de difusão do Cepid NeuroMat.”
+        </blockquote>
+
+        <p>
+         Ao longo do ano de 2019, foi publicado um número reduzido de textos, abordando temas bastante variados sobre a 
+         atuação do CEPID NeuroMat. Incluem-se textos que abordam, em um contexto mais amplo, a história em quadrinhos de 
+         Nildo e Rony, iniciativa de difusão associada à ABRAÇO (Ação NeuroMat para a lesão do plexo braquial) e 
+         <a href = "https://jornal.usp.br/universidade/acoes-para-comunidade/hq-esclarece-sobre-trauma-que-afeta-movimentos-e-sensacoes-no-braco"
+         target = "_blank">lançada em 2018</a>.
+        </p>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_cartunistas.png' %}" 
+            alt="Manchete cartunistas e cientistas">
+
+            <div class="caption">
+                Fonte: <a href= "https://jornal.usp.br/ciencias/cientistas-e-cartunistas-se-unem-para-divulgar-ciencia-em-quadrinhos/" 
+                target = "_blank">Jornal da USP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+        “O material busca orientar pacientes que sofreram uma lesão traumática do plexo braquial, um conjunto de 
+        nervos que faz a comunicação entre os membros superiores e o cérebro. As lesões afetam muitas vítimas de 
+        acidentes de trânsito, principalmente envolvendo motos – mais de 80% dos traumas são decorrentes desse tipo 
+        de acidente.”
+        </blockquote>
+
+        <p>
+         O ano de 2020 nos apresentou um grande <i>boom</i> de publicações.
+         Os primeiros relatos sobre o tema que representa grande parte deste <i>boom</i> apareceram ainda em 2018, 
+         mas foi em 2020 e 2021 que ele adquiriu um destaque mais amplo: o relato de sonhos. Nesse período, 
+         destacaram-se textos sobre pesquisas realizadas com participação de Sidarta Ribeiro – neurocientista 
+         vinculado ao NeuroMat – envolvendo relatos de sonhos e a relação que eles apresentam com a rotina cotidiana, 
+         dentro de um cenário de pandemia e isolamento social. Para um dos autores dos trabalhos:
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_sonhos_fapesp.png' %}" 
+            alt="Manchete sonhos FAPESP">
+
+            <div class="caption">
+                Fonte: <a href= "https://agencia.fapesp.br/sonhos-podem-revelar-como-esta-o-processo-de-adaptacao-ao-novo-normal/33380" 
+                target = "_blank">Agência FAPESP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “o estudo mostra que os sonhos refletiram de forma rápida e robusta as mudanças impostas pela pandemia, 
+         confirmando a existência de uma continuidade entre sonho e vigília defendida desde os estudos iniciais de 
+         Sigmund Freud (1856-1939) e Carl Gustav Jung (1875-1961). ‘Aquilo que está na sua vida onírica e diz respeito 
+         a essa emergência planetária se expressa como sofrimento quando você está desperto. Esse achado reforça a 
+         ideia proposta por Freud de que os sonhos são a via régia para o inconsciente e um material particularmente 
+         rico para diagnóstico’, afirma o pesquisador.”
+        </blockquote>
+    
+        <div class= "img-caption-block img-right">
+            <img src="{% static 'images/manchete_limpeza.png' %}" 
+            alt="Manchete limpeza sonhos">
+
+            <div class="caption">
+                Fonte: <a href= "https://revistagalileu.globo.com/Sociedade/Comportamento/noticia/2020/06/assuntos-ligados-limpeza-dominaram-sonhos-de-brasileiros-na-pandemia.html" 
+                target = "_blank">Revista Galileu</a>
+            </div>
+        </div>
+
+        <p>
+         Nesse caso, publicações originalmente feitas pela <a href = "https://agencia.fapesp.br/sonhos-podem-revelar-como-esta-o-processo-de-adaptacao-ao-novo-normal/33380"
+         target = "_blank">:
+         Agência FAPESP</a> foram republicadas por uma ampla gama de veículos com 
+         públicos mais amplos e, com isso, tornou-se um ponto alto no número de publicações que mencionaram o CEPID-NeuroMat 
+         ao longo dos anos. Essas pesquisas, no entanto, tratam-se de um ponto atípico nas atividades do NeuroMat, 
+         não apenas pelo número de  publicações feitas na mídia: embora 
+         tenha o envolvimento de pesquisadores vinculados ao CEPID, a pesquisa com sonhos não faz parte das principais 
+         linhas de pesquisa desenvolvidas pelo Centro.
+        </p>
+    
+        <p>
+         Além desse foco, os anos de 2020 e 2021 são bastante representativo pela publicação dos primeiros episódios do Faísca, que
+         discutiram temas científicos e os relacionaram à esfera cotidiana de forma mais acessível.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_videos_pandemia.png' %}" 
+            alt="Manchete sonhos FAPESP">
+
+            <div class="caption">
+                Fonte: <a href= "https://agencia.fapesp.br/cepid-neuromat-faz-videos-sobre-difusao-matematica-que-ajudam-no-combate-a-covid-19/33167" 
+                target = "_blank">Agência FAPESP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “A iniciativa traz uma série de vídeos sobre como os modelos matemáticos podem ajudar a entender o contágio 
+         do novo coronavírus (SARS-CoV-2). O conteúdo é voltado a um público amplo, não apenas acadêmico, para estimular 
+         não só a conscientização sobre a COVID-19, como também para ajudar no entendimento e na difusão da matemática.”
+        </blockquote>
+
+        <p>
+         Em 2022, as publicações externas citando o NeuroMat abordaram principalmente outra iniciativa do Centro, a partir 
+         de diferentes perspectivas: a Rede AMPARO. Foram veiculados textos sobre um novo podcast relacionado à Doença de 
+         Parkinson, como mais uma iniciativa da rede para alcançar o seu público com informações de qualidade.
+        </p>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_podcast_parkinson.png' %}" 
+            alt="Manchete podcast Parkinson">
+
+            <div class="caption">
+                Fonte: <a href= "https://jornal.usp.br/universidade/como-conviver-com-a-doenca-de-parkinson-podcast-discute-estrategias-para-vencer-dificuldades/" 
+                target = "_blank">Jornal da USP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “Alinhado com a proposta de inovação e divulgação científica do NeuroMat, o objetivo do podcast é ir além dos 
+         aspectos biológicos da doença, colocando em primeiro plano as histórias das pessoas que convivem com o Parkinson. 
+         Cada episódio terá um tema especial e que é pouco debatido, como a gestação, a sexualidade, o preconceito e as 
+         barreiras profissionais relacionadas à doença.”
+        </blockquote>
+
+        <p>
+         Além disso, os textos apresentaram uma questão que, de acordo com a coordenadora do projeto, Maria Elisa Piemonte 
+         Pimentel, é considerada bastante inovadora: a sexualidade em pessoas que convivem com a doença. Essa iniciativa, 
+         por sua vez, explicita o caráter de escuta ativa desempenhado pela Rede AMPARO, ao trabalhar diretamente em contato 
+         com pacientes da Doença de Parkinson.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_sexo_parkinson.png' %}" 
+            alt="Manchete sexo com Parkinson">
+
+            <div class="caption">
+                Fonte: <a href= "https://jornal.usp.br/atualidades/sexo-com-parkinson-precisamos-falar-sobre-isso/" 
+                target = "_blank">Jornal da USP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “A campanha foi pensada a partir de uma discussão que ocorreu em um projeto da instituição, a caravana Rede 
+         Amparo. A professora comenta que são realizadas rodas de conversa em viagens por todo o País: ‘Não é para nós 
+         falarmos, é muito mais para nós ouvirmos as pessoas com Parkinson por todo o Brasil, tentando identificar 
+         questões regionais. Dentro de uma roda de conversa em Macapá, no Amapá, esse assunto foi trazido inicialmente 
+         por homens e seguiu para uma grande discussão que também envolveu mulheres. Daí, a gente observou que, na 
+         verdade, era um tema latente, que eles não tinham espaço, não tinham uma escuta segura para falar sobre isso’.”
+        </blockquote>
+
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_folha_galves.png' %}" 
+            alt="Manchete morte Galves">
+
+            <div class="caption">
+                Fonte: <a href= "https://www1.folha.uol.com.br/cotidiano/2023/09/mortes-referencia-na-probabilidade-fez-avancos-na-neurociencia.shtml" 
+                target = "_blank">Folha de S.Paulo</a>
+            </div>
+        </div>
+    
+        <p>
+         Em 2023, grande parte das publicações que mencionaram o NeuroMat tinham um outro tom: o até então coordenador 
+         geral do CEPID, Antonio Galves, havia falecido. Diversos veículos institucionais, nacionais e internacionais, vinculados 
+         a institutos 
+         de pesquisa, universidades e agências de fomento à pesquisa, assim como veículos generalistas, como a Folha de S. 
+         Paulo, noticiaram o fato.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/galves_wikipedia.jpg' %}" 
+            alt="Galves professor">
+
+            <div class="caption">
+                Fonte: <a href= "https://commons.wikimedia.org/wiki/File:Random_Structures_in_the_Brain_008.jpg" 
+                target = "_blank">CEPID-NeuroMat; Wikipédia (CC-BY-SA 4.0)</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “O Professor Galves era coordenador do Centro de Pesquisa, Inovação e Difusão em Neuromatemática (NeuroMat), 
+         um centro de excelência que integra a matemática à neurociência teórica. Sua dedicação à pesquisa em processos 
+         estocásticos, especialmente em Sistemas Markovianos de Partículas, deixou um legado duradouro na área. Sua 
+         trajetória acadêmica e científica foi marcada por importantes realizações e contribuições para a comunidade 
+         científica e acadêmica do Brasil e do mundo. Durante sua carreira, Galves desempenhou papel fundamental na 
+         promoção da pesquisa e na formação de novos pesquisadores.”
+        </blockquote>        
+
+        <p>         
+         <br>A partir daí, o NeuroMat sofreu algumas alterações, dentre as quais está a mudança na coordenação, 
+         assumida por Oswaldo Baffa Filho em 2023, devido ao falecimento de Antonio Galves; e, conforme também 
+         sugerem os temas das  publicações dos anos seguintes, uma certa mudança nas atividades do CEPID-NeuroMat, 
+         em decorrência da nova gestão.
+        </p>
+    
+        <p>
+         Nos anos de 2024 e 2025, a cobertura midiática sobre o NeuroMat apresentou um novo aumento do número de 
+         publicações envolvendo o Centro que, até o início do segundo semestre de 2025, foram compostas por diversos
+         temas relacionados ao NeuroMat. Há menções pontuais sobre o
+         <a href = "https://jornal.usp.br/universidade/podcast-explora-relacao-entre-neurobiologia-matematica-e-ciencia-da-computacao"
+         target = "_blank">lançamento de uma nova temporada</a> do podcast ‘A Matemática do Cérebro’;  
+         alguns textos sobre o 
+         <a href = "https://jornal.usp.br/universidade/eventos/evento-apresenta-as-novas-fronteiras-de-pesquisas-na-usp"
+         target = "_blank">encerramento dos CEPIDs criados no ano de 2013</a>, grupo composto também pelo NeuroMat, 
+         e a conversão deles em Centros de Pesquisa, Inovação e Extensão (CEPIX), vinculados às suas instituições-sede; 
+         e sobre a 
+         <a href = "https://www.ime.usp.br/professor-antonio-galves-e-outorgado-com-o-titulo-postumo-de-professor-emerito-do-ime-usp"
+         target = "_blank">titulação póstuma de Antonio Galves</a> como Professor Emérito  do Instituto de Matemática e Estatística 
+         da USP:
+        </p>
+
+        <p>
+         De forma mais extensiva, são publicados textos que exploram a realização de exercícios capazes de melhorar sintomas 
+         da Doença de Parkinson, apresentados em vídeos publicados pela iniciativa AMPARO como parte das atividades para 
+         melhoria da qualidade de vida dos pacientes. Além disso, diversos textos também abordam o desenvolvimento do braço 
+         robótico, tecnologia resultante de pesquisas e inovações ligadas ao grupo de Oswaldo Baffa Filho e ao NeuroMat 
+         que é capaz de aprimorar a utilização de equipamentos de TMS.
+        </p>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_braco_robotico.png' %}" 
+            alt="Manchete braço robótico">
+
+            <div class="caption">
+                Fonte: <a href= "https://agencia.fapesp.br/grupo-cria-plataforma-robotica-para-tornar-a-estimulacao-magnetica-transcraniana-mais-segura-e-precisa/51951" 
+                target = "_blank">Agência FAPESP</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “Atualmente, equipamentos de TMS, utilizados para estimular regiões específicas do cérebro por meio de um campo 
+         magnético, apresentam problemas. Esses equipamentos têm um alcance limitado, por isso seu posicionamento precisa 
+         ser muito preciso na cabeça do participante. Além disso, o equipamento é pesado, tendo em média 5 quilos. Esses 
+         dois aspectos dificultam o manuseio do aparelho, tornando-o lento e fisicamente exigente, o que demanda 
+         profissionais altamente treinados para usar a TMS. <br>
+
+         Para contornar esses problemas, existem alternativas de um sistema de manuseio do equipamento por meio de robôs. 
+         No entanto, essas alternativas são, em geral, caras e com código fechado, o que dificulta a experimentação de 
+         novas possibilidades de manuseio. <br>
+
+         Usando um software livre de neuronavegação, o InVesalius, o grupo conseguiu criar um programa de código aberto 
+         para manusear com o auxílio de um robô um aparelho de TMS de forma altamente precisa e autônoma. Nesse programa, 
+         o robô também consegue se ajustar automaticamente de acordo com a movimentação dos participantes.”
+        </blockquote>
+
+        <p>
+         Além das pesquisas vinculadas diretamente à inovação, também foram publicados textos que abordam diferentes 
+         aspectos das pesquisas realizadas pelo NeuroMat. Em um deles, publicado pelo
+         <a href = "https://theconversation.com/matematica-e-biologia-nuvens-de-mosquitos-podem-agir-como-redes-de-neuronios-e-tomar-decisoes-coletivas-253714"
+         target = "_blank">The Conversation</a>, compara-se o funcionamento coletivo de 
+         neurônios com aquele desempenhado por uma nuvem de mosquitos para apresentar o contexto das pesquisas com redes neurais. 
+         Em outro, alguns pesquisadores ligados ao NeuroMat são entrevistados como fontes para matérias a respeito 
+         do uso de redes sociais como fatores de influências para as eleições municipais de São Paulo.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_eleicoes.png' %}" 
+            alt="Manchete eleições São Paulo">
+
+            <div class="caption">
+                Fonte: <a href= "https://www1.folha.uol.com.br/poder/2024/10/nunes-e-boulos-investem-milhoes-nas-redes-para-conter-marcal-na-reta-final-sem-tv.shtml" 
+                target = "_blank">Folha de S.Paulo</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “O estudo foi realizado com o pesquisador Antonio Galves, morto em 2023. Eles consideram que os usuários se 
+         influenciam mutuamente na rede. Cada indivíduo expressa sua opinião com base na pressão social exercida sobre 
+         ele, e essa interação resulta na formação de um consenso, que pode durar bastante tempo, mas é temporário. No 
+         final, um novo consenso surgirá naturalmente entre os indivíduos.”
+        </blockquote>
+
+        <p>
+         Por fim, parte dos textos publicados no ano de 2025 retratam a importância de plataformas como a Wikipédia enquanto 
+         fontes de informação e ferramentas de educação.
+        </p>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_wikipediaptbr.png' %}" 
+            alt="Manchete Wikipédia educação">
+
+            <div class="caption">
+                Fonte: <a href= "https://theconversation.com/sociedade-e-universidades-tem-muito-a-ganhar-ao-aprimorar-wikipedia-em-portugues-com-atividades-educativas-248294" 
+                target = "_blank">The Conversation</a>
+            </div>
+        </div>
+
+        <blockquote class="quote-full">
+         “No Brasil, o NeuroMat, o Centro de Pesquisa, Inovação e Difusão em Neuromatemática 
+         vinculado à Universidade de São Paulo (USP), foi pioneiro e atua há dez anos em esforços de melhoria da 
+         plataforma em português. Assim, tornou-se a maior instituição no mundo em geração de conteúdo matemático 
+         na Wikipédia. O trabalho do NeuroMat foi uma inspiração para a atuação em audiologia no Brasil e o que 
+         aprenderam e desenvolveram contribuiu para outras iniciativas, o que é o caso da tecnologia wiki para 
+         cursos on-line.”
+        </blockquote>
+
+        <p>
+         Por fim, apresento uma manchete que não menciona diretamente o CEPID-NeuroMat, mas traz um tópico bastante 
+         caro ao Centro: princípios da ciência aberta, que atravessam as atividades de difusão, pesquisa e 
+         inovação do NeuroMat em diferentes aspectos. As ferramentas de difusão científica em ambiente wiki 
+         se respaldam fortemente no compartilhamento aberto de conhecimento, baseando-se na ampla colaboração 
+         entre usuários diversos e, por isso, sua exploração como ferramenta educativa e de difusão é particularmente 
+         importante no atual cenário, em que o debate de questões de 
+         <a href = "https://www.gizmodo.com.br/a-ascensao-da-ia-esta-matando-o-trafego-humano-da-wikipedia-31098" 
+         target = "_blank">acesso à informação e uso de inteligência artificial</a> alcança diretamente as ferramentas 
+         Wiki dentro do universo digital.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/manchete_ia.png' %}" 
+            alt="Manchete IA tráfego humano">
+
+            <div class="caption">
+                Fonte: <a href= "https://www.gizmodo.com.br/a-ascensao-da-ia-esta-matando-o-trafego-humano-da-wikipedia-31098" 
+                target = "_blank">Gizmodo</a>
+            </div>
+        </div>
+
+        <blockquote class = "quote-full">
+         “Hoje, assistentes como ChatGPT, Copilot e Gemini — além dos próprios mecanismos de busca — oferecem respostas 
+         diretas nas páginas de resultados, sem a necessidade de clicar em links externos.
+         Essas respostas, ironicamente, muitas vezes são baseadas em conteúdo da própria Wikipédia, mas sem gerar tráfego 
+         de retorno. “As pessoas continuam consumindo o conhecimento que a Wikipédia produz, mas não visitam mais o 
+         site”, resumiu Miller.”
+        </blockquote>
+   
+        <div class="navigation-buttons navigation-buttons-center">
+            <a href="{% url 'aba3' %}" class="nav-button">
+                <span class="nav-icon">
+                    {% include "icons/arrow-left.svg" %}
+                </span>
+                Contribuições
+            </a>
+
+            <a href="{% url 'homepage' %}" class="nav-button">
+                Voltar ao Início
+                <span></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

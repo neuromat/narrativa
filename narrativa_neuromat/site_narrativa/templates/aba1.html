@@ -1,0 +1,335 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<h1>{% block title %}Convergência de iniciativas{% endblock %}</h1>
+<hr>
+<p class="header-subtitle">{% block subtitle %}&nbsp;{% endblock %}</p>
+
+{% block content %}
+
+<section class="section white-bg">
+    <div class="container text-only">
+        <p>
+         A atuação do NeuroMat inclui o desenvolvimento de pesquisas inovadoras dentro do campo das 
+         neurociências e, enquanto um Centro de Pesquisa, Inovação e Difusão da FAPESP, o NeuroMat conta com 
+         a exigência de que suas pesquisas e inovações tenham aplicações práticas dentro da sociedade, 
+         extrapolando os campos científico e acadêmico. Assim, mesmo as atividades vinculadas diretamente 
+         ao campo da pesquisa não ficam restritas a ele na atuação do NeuroMat, que destaca-se por 
+         integrar fortemente as atividades de pesquisa, inovação, transferência tecnológica e difusão 
+         científica.  Neste sentido, evidenciam-se algumas atividades desenvolvidas pelo NeuroMat que 
+         integram, em diferentes medidas, esses diferentes aspectos.
+        </p>
+
+        <p>
+         Entre elas, destacam-se: a Iniciativa ABRAÇO - Ação NeuroMat para a lesão do plexo braquial; 
+         o desenvolvimento de O Jogo do Goleiro; a Rede AMPARO - Apoio NeuroMat a Amigos e Pessoas 
+         com Doença de Parkinson; e o desenvolvimento do Braço Robótico; entre outras.
+        </p>
+        
+    </div>
+</section>
+
+<section class="section gray-bg">
+    <div class="container text-only">
+        
+        <h2 id="abraço"> Iniciativa ABRAÇO</h2>
+        
+        <p>
+         A Ação NeuroMat para a lesão do plexo braquial, ou ABRAÇO é a primeira plataforma do mundo 
+         direcionada para fornecer informações e apoio para pessoas envolvidas direta ou indiretamente 
+         com a lesão do plexo braquial – como os próprios pacientes e seus familiares. A iniciativa é 
+         coordenada pela Prof.ª Dr.ª Cláudia Vargas, que integra a equipe do NeuroMat desde antes mesmo 
+         de ele ser oficialmente fundado, quando Antonio Galves ainda reunia profissionais para a 
+         organização de um CEPID. Cláudia já trabalhava com a vertente clínica da lesão do plexo 
+         braquial e a partir disso, estabeleceu-se um diálogo que gerou parcerias entre instituições 
+         como o Instituto de Neurologia Deolindo Couto, o Instituto de Biofísica Carlos Chagas Filho - 
+         UFRJ e o Centro de Pesquisa, Inovação e Difusão em NeuroMatemática, permitindo criar uma rede 
+         ampla e interdisciplinar de profissionais. Dessa parceria surgem pesquisas e iniciativas como 
+         a ABRAÇO.
+        </p>
+        
+        <iframe 
+        class = "video-right"
+        src="https://www.youtube.com/embed/spwpuvMYbKg?si=cw0-VHsk2PWEmWFx" title="YouTube video player" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+        </iframe>
+        
+        <p>
+         A lesão no plexo braquial,  cuja principal causa são os acidentes de motocicleta, se caracteriza 
+         pelo comprometimento das funções desse conjunto de nervos que conecta o cérebro e a medula 
+         espinhal ao braço. Nesse aspecto, a ABRAÇO também tem sua origem e seus objetivos amparados 
+         em  aplicações práticas a problemas reais no Brasil. É possível destacar dados como o aumento 
+         de vendas de motocicletas entre as décadas de 1990 e 2010 também teve influência nos números 
+         pacientes com lesão do plexo braquial, conforme contexto apresentado pela pesquisadora 
+         Cláudia Vargas em sua palestra “Depois da queda da motocicleta”, em um dos episódios do 
+         Faísca NeuroMat.
+        </p>
+
+        <p>
+         Dentro desse cenário, a ABRAÇO busca aprofundar a compreensão do funcionamento do cérebro a partir 
+         de perspectivas da neuroplasticidade e do mapeamento cerebral, assim como contribuir para a 
+         recuperação de pacientes que sofreram algum tipo de lesão no plexo braquial, ao fornecer 
+         informações qualificadas sobre o
+         <a href= "https://cepid.fapesp.br/programa-cepid" target = "_blank">tratamento</a>; fortalecer 
+         a participação de amigos, familiares e profissionais no processo de recuperação, criando um 
+         senso de comunidade entre as pessoas afetadas pela lesão no Brasil; capacitar profissionais 
+         no tratamento dessas lesões; desenvolver ferramentas e estratégias para aprimorar as condições 
+         de tratamento e reabilitação dos pacientes; e, concomitante a isso, aprimorar o desenvolvimento 
+         de pesquisas à respeito da plasticidade cerebral e do funcionamento dos neurônios em diferentes 
+         cenários.
+        </p>
+
+    </div>
+</section>
+
+<section class="section white-bg">
+    <div class="container text-only">
+        <h2 id = "jogo-goleiro"> O Jogo do Goleiro</h2>
+
+        <p>
+         Este jogo se trata de uma ferramenta online e de código aberto criada em 2015 por idealização de 
+         Antonio Galves com o objetivo de auxiliar na compreensão do funcionamento cerebral e na avaliação 
+         e reabilitação de problemas neurológicos, partindo de noções de que o cérebro opera por mecanismos 
+         estatísticos, conforme noções do ‘Cérebro Estatístico’.
+        </p>
+
+        <div class="img-caption-block img-left">
+            <img src="{% static 'images/jogo_goleiro.jpg' %}" 
+            alt="Cena de O Jogo do Goleiro">
+
+            <div class="caption">
+                Fonte: <a href = "https://game.numec.prp.usp.br" 
+                 target = "_blank"> CEPID-NeuroMat</a>
+           </div>
+        </div>
+
+        <p>
+         Durante a execução da ferramenta, o jogador assume a posição de um goleiro defendendo o gol de 
+         batidas de pênaltis. A cada rodada, ele precisa tomar uma decisão dentro de três alternativas: 
+         dar saltos para a direita, para a esquerda ou defender a parte central do gol, já que o chute 
+         será dado em uma dessas três regiões. Na posição do goleiro, o papel do jogador é identificar 
+         a sequência de chutes, permitindo se antecipar a ela e maximizar o número de defesas realizadas 
+         com sucesso. Uma vez que a sequência de direções de chutes é definida por um algoritmo de 
+         probabilidades pré-definido, o jogo interage diretamente com a forma com que o cérebro reconhece 
+         padrões para prever a direção dos próximos chutes baseados nos anteriores.
+        </p>
+
+        <div class="img-caption-block img-right">
+            <img src="{% static 'images/manchete_goleiro01.png' %}" 
+            alt="Manchete de O Jogo do Goleiro publicada na Agência FAPESP">
+        
+            <div class="caption">
+                Fonte: <a href = "https://agencia.fapesp.br/jogo-eletronico-e-usado-para-investigar-como-o-cerebro-humano-responde-apos-um-erro-de-previsao/52300" 
+                target = "_blank"> Agência FAPESP</a>
+           </div>
+        </div>
+
+        <p>
+         Dessa forma, o jogo também permitiu aprofundar o conhecimento do cérebro, visto que permite 
+         melhor compreender seu comportamento ao realizar previsões, conforme destaca 
+         <a href= "https://agencia.fapesp.br/jogo-eletronico-e-usado-para-investigar-como-o-cerebro-humano-responde-apos-um-erro-de-previsao/52300"
+         target = "_blank">Agência FAPESP</a>, em 2024.
+        </p>
+
+        <p>
+         A identificação da sequência e a percepção do padrão de chutes ao longo do jogo acontece por meio 
+         de diferentes mecanismos cognitivos, que, por sua vez, podem apresentar diferentes desempenhos 
+         entre os indivíduos. Alguns desses mecanismos, por exemplo, podem sofrer declínio em pessoas 
+         com Doença de Parkinson, principalmente aqueles associados a processos automáticos desempenhados 
+         pelo sistema nervoso, como os que estão envolvidos na marcha e no caminhar – e também na 
+         identificação de padrões implícitos, como a sequência de chutes a serem defendidos.
+        </p>
+
+        <p>
+         Nesse sentido, surgiu a proposta de utilizar O Jogo do Goleiro como uma ferramenta de pesquisa e 
+         tratamento relacionados à Doença de Parkinson, unindo o funcionamento do jogo ao conhecimento de 
+         sintomas da doença. Buscou-se utilizar o jogo para detectar precocemente declínios em processos 
+         cognitivos automáticos e, a partir disso, colaborar com o pré-diagnóstico da Doença de 
+         Parkinson – um resultado que publicações do NeuroMat já mostraram ser bastante viável, como em 
+         <a href= "https://doi.org/10.3389/fnagi.2020.00050" target = "_blank">artigo publicado em 2020</a> 
+         por pesquisadores vinculados ao CEPID.
+        </p>
+
+        <div class= "img-caption-block img-left">
+            <img src="{% static 'images/podcast.png' %}" 
+            alt="Ícone 'podcast' A Matemática do Cérebro">
+        
+            <div class="caption">
+                Fonte: <a href = "https://podcast.numec.prp.usp.br/o-jogo-do-goleiro" 
+                target = "_blank"> CEPID-NeuroMat</a>
+           </div>
+        </div>
+
+            <p>
+             Além disso, duas das pessoas autoras do trabalho acima também participaram de um 
+             <a href = "https://podcast.numec.prp.usp.br/o-jogo-do-goleiro" target = "_blank"> 
+             episódio do podcast 'A Matemática do Cérebro'</a>, publicado em 2021, explorando 
+             O Jogo do Goleiro, seus fundamentos matemáticos e suas aplicações na pesquisa e 
+             na área clínica. Nesta última, destaca-se a interação do jogo com outra frente de 
+             atuação do CEPID NeuroMat: a Rede AMPARO (Apoio NeuroMat a Amigos e Pessoas com 
+             Doença de Parkinson) e as pesquisas envolvendo a Doença de Parkinson.
+             </p>
+
+    </div>
+
+</section>
+
+<section class="section gray-bg">
+    <div class="container text-only">
+
+        <h2 id="amparo"> A Rede AMPARO</h2>
+
+        <p>
+         Criada no ano de 2016, a Rede é coordenada pela Prof.ª Dr.ª Maria Elisa Piemonte Pimentel, 
+         vinculada à Faculdade de Medicina da USP. A pesquisadora passou a integrar o CEPID-NeuroMat 
+         em 2015, quando o Jogo do Goleiro estava no início de sua implementação prática e, com isso, 
+         também foi incorporado às pesquisas relacionadas à Doença de Parkinson.  
+        </p>
+
+        <iframe 
+         class = "video-right"
+         src="https://www.youtube.com/embed/ngp7kjx0syw?si=lkv5mpExV43IPcuh" 
+         title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" 
+         allowfullscreen>
+        </iframe>
+
+        <p>
+         O primeiro projeto desenvolvido dentro do NeuroMat sob coordenação da pesquisadora envolveu a 
+         implementação de O Jogo do Goleiro na avaliação de alterações motoras em pacientes da Doença 
+         de Parkinson. Com o tempo, o Jogo do Goleiro passou a integrar um conjunto de ferramentas 
+         para auxiliar no diagnóstico precoce da Doença de Parkinson dentro da rede AMPARO, visando 
+         também a implementação desses protocolos em unidades de saúde. Assim, a partir dessa integração 
+         entre aspectos teóricos e práticos, foi possível desenvolver novas pesquisas e transferir 
+         conhecimentos e inovações geradas a partir delas para a atuação prática no tratamento.
+        </p>
+
+        <p>
+         Nesse sentido, a AMPARO busca, de maneira similar àquilo definido para a ABRAÇO,  
+         criar e auxiliar uma rede de apoio para pessoas com Doença de Parkinson por meio 
+         de conteúdos e palestras voltados para pessoas afetadas direta ou indiretamente pela 
+         doença – como amigos/as, familiares, cuidadores/as, enfermeiros/as e as próprias pessoas 
+         que convivem com a doença. Assim, a iniciativa mantém-se como uma espécie de ponte entre 
+         as pesquisas inovadoras no campo e o cuidado aos pacientes e demais afetados cotidianamente 
+         pela Doença de Parkinson. Entre os materiais e atividades oferecidas pela Rede ao longo 
+         dos anos a respeito da Doença de Parkinson, incluem-se:
+        </p>
+            
+        <ul>
+         <li>Tutoriais e instruções de exercícios com potencial de melhorar 
+            sintomas e efeitos comuns da doença;</li>
+         <li>Atividades educativas sobre problemas cotidianos na convivência com a doença;</li>
+         <li>Palestras voltadas diretamente para os cuidados pessoais das pessoas 
+            afetadas pela doença e de terceiros, afetados indiretamente por ela;</li>
+         <li>Explorações de danças regionais brasileiras para exercitar a coordenação motora, 
+            aspecto bastante fragilizado em pacientes com Parkinson.</li>
+        </ul>
+
+        <p>
+         Diversos desses materiais estão disponíveis no canal do Youtube do NeuroMat, 
+         <a href = "https://www.youtube.com/playlist?list=PLXUXkbNfNLDYsshG-o3AC2lekm4391cQE" target = "_blank">em uma playlist específica da Rede AMPARO</a> 
+         e podem ser conferidos abertamente. 
+         Com isso, a atuação da rede busca melhorar as condições dos pacientes e o 
+         próprio tratamento da Doença de Parkinson, altamente multidisciplinar e multifacetada.
+        </p>
+
+    </div>
+</section>
+
+<section class="section white-bg">
+    <div class="container text-only">
+
+        <h2 id = "tms"> A Estimulação Magnética Transcraniana chega ao NeuroMat</h2>
+
+        <p>
+         A inclusão de atividades vinculadas à Estimulação Magnética Transcraniana (EMT, ou TMS, na sigla 
+         em inglês) é mais recente na história do NeuroMat. Em 2018, após participar de um seminário na 
+         Universidade de São Paulo em Ribeirão Preto, SP, Antonio Galves convidou o Prof. Dr. Oswaldo 
+         Baffa Filho, que trabalha com biomagnetismo, para integrar a equipe do NeuroMat a partir de 
+         uma parceria entre o CEPID e a Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto, 
+         da USP. Com isso, a pesquisa realizada pelo CEPID incorporou um novo componente: a Estimulação 
+         Magnética Transcraniana.
+        </p>
+        
+        <iframe 
+         class= "video-left"
+         src="https://www.youtube.com/embed/govzwu3tThE?si=avDdXfEmLbt-dbsu" title="YouTube video player" frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+         allowfullscreen>
+        </iframe>
+
+        <p>
+         Além disso, uma parcela da pesquisa realizada por Oswaldo Baffa Filho voltava-se para a 
+         inovação tecnológica, visando aprimorar as próprias técnicas da TMS. Exemplo disso é o 
+         desenvolvimento de um<a href ="https://www.youtube.com/watch?v=govzwu3tThE" target = "_blank">
+         braço robótico de precisão</a> operado por um <i>software</i> de código aberto, contrastante 
+         com as alternativas dispendiosas presentes no mercado. Esse braço é capaz de operar, 
+         com maior precisão e por mais tempo contínuo que um braço humano, o equipamento que realiza 
+         as estimulações do sistema nervoso; assim como permite tornar os experimentos mais naturais, 
+         visto que possibilita movimentações leves por parte do paciente – demandando apenas um ajuste 
+         fino por parte do braço robótico, para localizar a região de estímulo anterior ao movimento. 
+        </p>
+
+        <iframe  
+         class= "video-right"
+         src="https://www.youtube.com/embed/P60hHVocVjY?si=ux_l-JA38dDhhoDM" title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" 
+         allowfullscreen>
+        </iframe>
+
+        <p>
+         As novas inclusões passaram a complementar diversas atividades que já vinham sendo realizadas no 
+         NeuroMat, se tornando mais uma forma de auxiliar os estudos para compreender o funcionamento do 
+         cérebro. Até aquele momento, os estímulos nervosos fornecidos a pacientes e voluntários durante 
+         os experimentos do NeuroMat eram feitos a partir de sinais visuais ou sonoros e, com a inclusão 
+         de técnicas de TMS nos processos de pesquisa do CEPID, puderam ser incorporadas novas formas de 
+         estimular o cérebro durante esses experimentos.
+        </p>
+
+    </div>
+</section>
+
+<section class="section gray-bg">
+    <div class="container text-only">
+        
+        <h2 id="convergência"> A convergência de pesquisa, inovação, transferência tecnológica e difusão científica no NeuroMat</h2>
+    
+        <p>
+         Observando essas iniciativas, é possível notar algo que se repete ao longo da história do NeuroMat: 
+         a transversalidade entre os campos de pesquisa, inovação e difusão, centrais para a atuação de um 
+         CEPID-FAPESP. As iniciativas apresentadas são ancoradas em questões contemporâneas de pesquisa, 
+         como o Cérebro Estatístico e a TMS; ao mesmo tempo, geram produtos inovadores e com amplo 
+         potencial de aplicação em seus campos – seja ele o tratamento médico, o diagnóstico de doenças, 
+         ou mesmo o aprimoramento do processo de pesquisa científica. Assim, também geram produtos de 
+         difusão científica para seus respectivos públicos por meio de palestras e vídeos, como nas 
+         redes AMPARO e ABRAÇO; com auxílio de veículos externos, publicação de materiais dedicados, 
+         ou por outras diferentes vias de difusão científica, como será detalhado a seguir.
+        </p>
+            
+        <div class="navigation-buttons navigation-buttons-center">
+            <a href="{% url 'homepage' %}" class="nav-button">
+                <span class="nav-icon">
+                    {% include "icons/arrow-left.svg" %}
+                </span>
+                Início
+            </a>
+
+            <a href="{% url 'aba2' %}" class="nav-button">
+                A Difusão
+                <span class="nav-icon">
+                    {% include "icons/arrow-right.svg" %}
+                </span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

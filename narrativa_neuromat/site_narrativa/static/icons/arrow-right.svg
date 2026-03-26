@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 -2 32 32"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="arrow_right.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41625"
+     inkscape:cx="400"
+     inkscape:cy="400"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">arrow-left</title>
+  <desc
+     id="desc1">Created with Sketch Beta.</desc>
+  <defs
+     id="defs1" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     sketch:type="MSPage"
+     transform="rotate(180,16,14)">
+    <g
+       id="Icon-Set"
+       sketch:type="MSLayerGroup"
+       transform="translate(-412,-933)"
+       fill="#000000">
+      <path
+         d="m 438,957 c 0,1.104 -0.896,2 -2,2 h -20 c -1.104,0 -2,-0.896 -2,-2 v -20 c 0,-1.104 0.896,-2 2,-2 h 20 c 1.104,0 2,0.896 2,2 v 3 h 2 v -3 c 0,-2.209 -1.791,-4 -4,-4 h -20 c -2.209,0 -4,1.791 -4,4 v 20 c 0,2.209 1.791,4 4,4 h 20 c 2.209,0 4,-1.791 4,-4 v -3 h -2 z m 5,-11 h -21.586 l 5.243,-5.243 c 0.391,-0.39 0.391,-1.024 0,-1.414 -0.39,-0.391 -1.024,-0.391 -1.415,0 l -6.899,6.899 c -0.208,0.209 -0.297,0.486 -0.283,0.758 -0.014,0.272 0.075,0.549 0.283,0.758 l 6.899,6.899 c 0.391,0.391 1.025,0.391 1.415,0 0.391,-0.39 0.391,-1.024 0,-1.415 L 421.414,948 H 443 c 0.553,0 1,-0.447 1,-1 0,-0.552 -0.447,-1 -1,-1 z"
+         id="arrow-left"
+         sketch:type="MSShapeGroup" />
+    </g>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>arrow-left</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

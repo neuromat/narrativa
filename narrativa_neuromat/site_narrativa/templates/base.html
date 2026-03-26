@@ -1,0 +1,139 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Narrativa NeuroMat</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <!-- ✅ OBRIGATÓRIO para responsividade mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <a href="#top"
+    class="back-to-top floating-back-to-top"
+    aria-label="Voltar ao topo">
+
+        <span class="nav-icon">
+            {% include "icons/arrow-up.svg" %}
+        </span>
+    </a>
+    
+    <body>
+
+        <header class="page-header">
+            <h1>{% block title %}{% endblock %}</h1>
+            <hr>
+            <p class="header-subtitle">{% block subtitle %}&nbsp;{% endblock %}</p>
+            <div class="author">{% block author %}&nbsp;{% endblock %}</div>
+        </header>
+
+        <div class="page-layout-wrapper">
+            <div class="page-layout">
+                <aside class="sidebar">
+                    <div class="sidebar-sticky">
+
+                        <nav class="sidebar-nav">
+
+                            <div class="sidebar-section">
+                                <a href="{% url 'homepage' %}" class="sidebar-link">
+                                    Início
+                                </a>
+                            </div>
+
+                            <div class="sidebar-section {% if active_sidebar == 'convergencia-iniciativas' %}is-open{% endif %}">
+
+                                <a href="{% url 'aba1' %}" class="sidebar-link">
+                                    Convergência
+                                </a>
+
+                                <ul class="sidebar-subsections">
+                                    <li><a href="#abraço">Rede Abraço</a></li>
+                                    <li><a href="#jogo-goleiro">Jogo do Goleiro</a></li>
+                                    <li><a href="#amparo">Rede Amparo</a></li>
+                                    <li><a href="#tms">TMS</a></li>
+                                    <li><a href="#convergência">Convergências</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="sidebar-section {% if active_sidebar == 'difusao-cientifica' %}is-open{% endif %}">
+
+                                <a href="{% url 'aba2' %}" class="sidebar-link">
+                                    Difusão
+                                </a>
+
+                                <ul class="sidebar-subsections">
+                                    <li><a href="#iniciativas-difusao">Iniciativas</a></li>
+                                    <li><a href="#wiki-difusao">Wiki-difusão</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="sidebar-section {% if active_sidebar == 'contribuicoes' %}is-open{% endif %}">
+
+                                <a href="{% url 'aba3' %}" class="sidebar-link">
+                                    Contribuições
+                                </a>
+
+                                <ul class="sidebar-subsections">
+                                    <li><a href="#contribuição-dados">Dados</a></li>
+                                    <li><a href="#contribuição-difusao">Difusão</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="sidebar-section is-open">
+                                <a href="{% url 'aba4' %}" class="sidebar-link">
+                                    Mídia externa
+                                </a>
+                            </div>
+
+                        </nav>
+                    </div>
+                </aside>
+                
+                <main class="content">
+                    {% block content %}
+                    {% endblock %}
+                </main>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+
+                <div class="footer-column">
+                    <h4>Contato</h4>
+                    <p>neuromat@numec.prp.usp.br</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quem somos</h4>
+                    <a href="https://neuromat.numec.prp.usp.br/team/">Conheça a equipe</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Realização</h4>
+                    <img src="{% static 'images/logo_neuromat.png' %}" class="footer-logo" alt="Logo realização">
+                    <br>
+                    <a href="https://neuromat.numec.prp.usp.br/who-we-are">Conheça o NeuroMat</a>
+                </div>
+
+                <div class="footer-column">
+                   <h4>Apoio</h4>
+                    <img src="{% static 'images/logo_fapesp_branco.webp' %}" class="footer-logo" alt="Logo apoio">
+                    
+                    <p> 
+                     <a href="https://bv.fapesp.br/pt/auxilios/58573/centro-de-pesquisa-inovacao-e-difusao-em-neuromatematica-neuromat/">Processo nº 2013/07699-0</a> <br>
+                     <a href="https://bv.fapesp.br/pt/bolsas/228248/uma-decada-de-pesquisa-inovacao-e-difusao-a-trajetoria-e-a-conexao-entre-iniciativas-do-cepid-neurom/">Processo nº 2025/01835-6</a>
+                    </p>
+                </div>
+
+                <div class="footer-license">
+                 This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" style="color: rgb(255, 255, 255, .7)">Creative Commons Attribution 4.0 International</a>
+                 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+                 <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

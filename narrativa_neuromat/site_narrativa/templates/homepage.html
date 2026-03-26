@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<h1>{% block title %}Uma história NeuroMat:{% endblock %}</h1>
+<hr>
+<p class="header-subtitle">{% block subtitle %}13 anos de contribuições do CEPID{% endblock %}</p>
+<div class="author">{% block author %}Por André M. Rodeguero Stefanuto{% endblock %}</div>
+
+{% block content %}
+<section class="section white-bg">
+    <div class=" container text-only">
+        <p>
+         O Centro de Pesquisa, Inovação e Difusão em Neuromatemática (CEPID NeuroMat) faz parte do 
+         <a href= "https://cepid.fapesp.br/programa-cepid" target = "_blank">programa de CEPIDs</a>
+         da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP). Como parte deste programa, 
+         o Centro tem a missão de desenvolver pesquisas na fronteira do conhecimento, difundir os 
+         conhecimentos gerados e contribuir para a inovação e para a transferência tecnológica com impacto 
+         direto na sociedade.
+        </p>
+
+        <p>
+         Nessa direção, o CEPID NeuroMat foi fundado em 2013 com o objetivo de criar um novo sistema 
+         matemático que pudesse auxiliar na compreensão de dados neurais. Em outras palavras, como 
+         dizia seu fundador, Antonio Galves, buscava-se criar “uma nova matemática” 
+         voltada para o entendimento de questões 
+         da neurobiologia contemporânea, relacionadas ao funcionamento dos neurônios e do cérebro. Para 
+         isso,  também foi necessário desenvolver ferramentas computacionais para lidar com as novas 
+         conjecturas. Assim, o CEPID-NeuroMat buscou centralizar pesquisadores, profissionais e 
+         colaboradores de diversas especialidades e uma estrutura com um direcionamento particular.
+        </p>
+
+        <p>
+         Esses processos foram intensamente atravessados por princípios da Ciência Aberta – como a 
+         implementação de ferramentas desenvolvidas em código aberto e disponibilização dos dados em 
+         acesso aberto – que guiam a forma como as equipes do NeuroMat atuam em suas atividades de 
+         pesquisa, inovação, transferência tecnológica e difusão científica.
+        </p>
+
+        
+        <iframe 
+         class = "video-right" 
+         src="https://www.youtube.com/embed/WbJa27ksUjY?si=LGMyPCpN7H5xpbXo" 
+         title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+         gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" 
+         allowfullscreen>
+        </iframe>
+
+        <p>
+         Nessa trajetória, há um ponto bastante marcante: o desenvolvimento do Modelo Galves-Löcherbach. 
+         Este modelo foi originalmente publicado em 2013 no 
+         <a href= "https://link.springer.com/article/10.1007/s10955-013-0733-9" target = "_blank">
+         artigo fundador do NeuroMat</a> e, conforme detalha o vídeo ao lado – com 
+         participação do próprio Antonio Galves – o modelo busca descrever o comportamento 
+         coletivo dos neurônios e prever conjunturas futuras desse sistema baseado em
+         eventos passados. Assim, o NeuroMat pôde consolidar eixos guias para suas diversas atividades, 
+         permitindo unir diferentes perspectivas e especialidades de forma colaborativa e convergente 
+         para o desenvolvimento de pesquisas, objetos de inovação e transferência tecnológica e produtos 
+         de difusão e divulgação científica.  
+        </p>
+    
+        <div class="navigation-buttons navigation-buttons-center">
+            <span></span>
+
+            <a href="{% url 'aba1' %}" class="nav-button">
+                A Convergência
+                <span class="nav-icon">
+                    {% include "icons/arrow-right.svg" %}
+                </span>
+            </a>
+        </div>
+
+</section>
+
+{% endblock %}
