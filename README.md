@@ -5,7 +5,7 @@
 Este projeto é resultado da bolsa Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) de Jornalismo Científico de André M. Rodeguero Stefanuto (Processo nº 2025/01835-6), vinculado ao CEPID-Neuromat (Processo nº 2013/07699-0).
 Ele tem o objetivo de apresentar, em uma construção narrativa baseada em dados, o histórico de iniciativas do NeuroMat e o amplo diálogo e transversalidade presente na organização delas e do próprio Centro.
 
-A publicação é organizada em 5 abas, descrevendo uma apresentação e outras quatro, apresentando diferentes aspectos da história do NeuroMat.
+A publicação é organizada em 5 abas, contendo uma apresentação e outras quatro abas, apresentando diferentes aspectos da história do NeuroMat.
 
 __Licença__: o projeto final está licenciado via Creative Commons CC-BY 4.0 (Attribution 4.0 International);
 
