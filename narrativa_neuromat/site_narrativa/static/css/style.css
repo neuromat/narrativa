@@ -5,8 +5,8 @@
     --content-width: 900px;
     --wide-width: 1000px;
     --dark-bg: rgb(39, 39, 39);
-    --button-bg: rgba(0, 243, 200, 0.200);
-    --accent: rgba(0, 243, 200);
+    --button-bg: rgba(4, 217, 36, .8);
+    --accent: rgba(5, 242, 199, .8);
     --text-green: rgb(35, 128, 53);
     --sidebar-width: 200px;
 }
@@ -49,7 +49,7 @@ h2 {
 hr {
     width: 30%;          
     height: 1px;           
-    background-color: rgb(0, 243, 200, 0.4);
+    background-color: rgb(5, 242, 199, 0.4);
     border: none;          
     margin: 3px auto;
     border-radius: 1px;
@@ -146,7 +146,7 @@ header {
 .sidebar-link {
     display: block;
     font-weight: bold;
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
     padding: 5px 0;
 }
@@ -373,7 +373,7 @@ blockquote {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00F3C8;
+    background-color: rgb(4, 217, 36, .8);
     color: var(--button-text-color, white);
     border-radius: 50%;
     text-decoration: none;
@@ -697,6 +697,7 @@ footer {
     footer {
         display: none !important;
     }
+
 
     .page-layout-wrapper,
     .page-layout {
