@@ -25,4 +25,5 @@ urlpatterns = [
     path('difusao-cientifica/', views.aba2, name='aba2'),
     path('contribuicoes/', views.aba3, name='aba3'),
     path('midia-externa/', views.aba4, name='aba4'),
+
 ]
